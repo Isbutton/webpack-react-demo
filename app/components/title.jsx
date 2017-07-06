@@ -11,7 +11,7 @@ export default class Title extends  React.Component{
         return (
             <div className="container">
                 <section className="jumbotron">
-                    <h3 className="jumbotron-heading">Search User fff</h3>
+                    <h3 className="jumbotron-heading">Search User mml</h3>
                 </section>
             </div>
         )

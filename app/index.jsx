@@ -8,6 +8,5 @@ if (module.hot) {
     module.hot.accept();
 }
 
-const div = document.createElement('div');
-document.body.appendChild(div);
+const div = document.getElementById('example');
 ReactDOM.render(<Title />,div);

@@ -63,7 +63,10 @@ module.exports = {
         // }),
         new HtmlwebpackPlugin({
             title :'react web',
-            // chunks:['app','vendors']
+            template : path.resolve(TEM_PATH,'index.html'),
+            filename:'index.html',
+            //chunks 引用entry里的那几个入口
+            inject:'body'
         }),
         new webpack.HotModuleReplacementPlugin(),//react-hot-loader用
         new webpack.NoEmitOnErrorsPlugin(),//react-hot-loader用
